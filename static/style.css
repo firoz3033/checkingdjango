@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #46F2B7;
+    margin: 10px 0px;
+    padding: 10px 15px;
+}
+.header-content{
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+}
+.main-area{
+    background-color: #46F2B7;
+    margin: 0px;
+}
+.content-area{
+    height: 1500px;
+    background-color: rebeccapurple;
+    margin: 10px 0px;
+}
+.side-bar{
+    height: 400px;
+    background-color: rebeccapurple;
+    margin: 10px 0px;
+    width: 100%;
+}
+/* now create two classes that will help for sticky sidebar */
+.sticky-sidebar{
+    position: sticky;
+    width: 100%;
+    /* the below top and topSpace in js must be same */
+    top: 10px;
+}
+.bottom-fixed-sidebar{
+    /* remove 30px from width as 30px margin is given 15 left 15 right */
+    width: calc(100% - 30px);
+    position: absolute;
+    bottom: 0px;
+}
+.footer-area{
+    width: 100%;
+    height: 500px;
+    background-color: #46F2B7;
+    margin: 10px 0px;
+    padding: 10px 15px;
+}
+.footer-content{
+    width: 100%;
+    height: 100%;
+    background-color: rebeccapurple;
+}
